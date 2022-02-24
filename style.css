@@ -44,5 +44,18 @@ li{
   }
   .headers{
     font-family: 'Courier New', monospace;
+    font-size: 90px;
+    text-align: center;
 
   }
+  .logo1{
+      height: 120px;
+      width: 120px;
+      color: gray;
+  }
+  .logo2{
+    height: 120px;
+    width: 120px;
+    color: gray;
+    align-items: center;
+}
