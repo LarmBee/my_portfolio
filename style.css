@@ -59,3 +59,11 @@ li{
     color: gray;
     align-items: center;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 2px;
+    border-color: aqua;
+
+}
