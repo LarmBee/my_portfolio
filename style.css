@@ -117,20 +117,34 @@ div.desc {
   float: right ;
 }
 .tech{
-  background-color: red;
-  text-align: left;
+  background-color: white;
   margin: -30px;
-  padding: 100px;
+  text-align: center;
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  
+
+}
+.tech p {
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
 }
 .education{
-  background-color: yellow;
+  background-color: white;
   text-align: left;
   margin: -30px;
   padding: 100px;
 }
+.education p {
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+}
 .projects{
-  background-color: rgb(23, 223, 179);
+  background-color: white;
   text-align: left;
   margin: -30px;
   padding: 100px;
+  display: inline;
 }
