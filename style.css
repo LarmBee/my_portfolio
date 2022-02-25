@@ -3,8 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
 }
 
 ul{
@@ -44,7 +44,7 @@ li{
   }
   .headers{
     font-family: 'Courier New', monospace;
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
 
   }
