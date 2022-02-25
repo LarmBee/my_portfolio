@@ -31,6 +31,17 @@
   text-align: left;
   margin: -30px;
   padding: 100px;
+  font-family: 'Courier New', monospace;
+  font-size: 15px;
+ }
+ #about p{
+  font-family: 'Courier New', monospace;
+  font-size: 30px;
+ }
+ #about img {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
  }
 .nav{
   font-family: 'Courier New', monospace;
@@ -52,18 +63,6 @@ li{
     color: black;
     margin: 20px;
 }
-.fa {
-    padding: 10px;
-    font-size: 50px;
-    width: max-content;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-    float: right;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
   .headers{
     font-family: 'Courier New', monospace;
     font-size: 20px;
@@ -93,26 +92,7 @@ li{
     border-color: aqua;
 
 }
-div.gallery {
-  margin: 5px;
-  border: 10px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 #socialmedia{
   float: right ;
 }
@@ -143,8 +123,13 @@ div.desc {
 }
 .projects{
   background-color: white;
-  text-align: left;
+  text-align: center;
   margin: -30px;
   padding: 100px;
   display: inline;
+  
+}
+.projects p {
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
 }
