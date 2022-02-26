@@ -12,18 +12,31 @@
   padding-top: 1em;
   padding-bottom: 1em;
 }
+.header a{
+  color: rgb(223, 18, 18);
+  padding-left: 0.05em;
+  padding-right: 0.05em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.nav{
+  font-family: 'Courier New', monospace;
+  color: rgb(237, 241, 2);
+  display:inline;
+  margin: 20px;
+  background-color: transparent;
+  text-decoration: none;
+  size: 50px;
+}
+
 .socialmedia{
   size: 10px;
   position: absolute;
   top: 0.2em;
   right: 1em;
 }
-.header a{
-    color: black;
-    padding-left: 0.05em;
-    padding-right: 0.05em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+#socialmedia{
+  float: right ;
 }
 
 #about{
@@ -33,8 +46,18 @@
   padding: 100px;
   font-family: 'Courier New', monospace;
   font-size: 15px;
-
  }
+ #about .me {
+  font-family: 'Courier New', monospace;
+  font-size: 50px;
+  text-align: center;
+}
+#about p{
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
  #about p{
   font-family: 'Courier New', monospace;
   font-size: 30px;
@@ -47,26 +70,6 @@
    top: 100px;
    left: 100px;
  }
-.nav{
-  font-family: 'Courier New', monospace;
-  color: #000;
-  display:inline;
-  margin: 20px;
-  background-color: transparent;
-  text-decoration: none;
-  size: 50px;
-}
-ul{
-    margin: 0px;
-    padding: 20px;
-}
-
-li{
-    font-family: 'Courier New', monospace;
-    display:inline;
-    color: black;
-    margin: 20px;
-}
   .headers{
     font-family: 'Courier New', monospace;
     font-size: 20px;
@@ -76,11 +79,6 @@ li{
     right: 630px;
 
   }
-  .logo1{
-      height: 120px;
-      width: 120px;
-      color: gray;
-  }
   .logo2{
     height: 120px;
     width: 120px;
@@ -88,18 +86,8 @@ li{
     align-items: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    border: 10px;
-    border-color: aqua;
 
-}
-
-#socialmedia{
-  float: right ;
-}
+/*Technology Section*/
 .tech{
   background-color: #C38D9E;
   margin: -30px;
@@ -113,6 +101,7 @@ li{
   font-family: 'Courier New', monospace;
   font-size: 40px;
 }
+/*Education section*/
 .education{
   background-color: #E8A87C;
   text-align: left;
@@ -123,6 +112,18 @@ li{
   font-family: 'Courier New', monospace;
   font-size: 30px;
 }
+
+/*Split the eduaction section into 2 sections*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  border: 10px;
+  border-color: aqua;
+
+}
+
+/*Project section*/
 .projects{
   background-color: tomato;
   margin: -30px;
@@ -138,23 +139,13 @@ li{
   font-family: 'Courier New', monospace;
   font-size: 40px;
 }
+/*Add black and white to the images*/
 .projects img{
   border-radius: 50%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
-
 }
 .projects img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-}
-#about .me {
-  font-family: 'Courier New', monospace;
-  font-size: 50px;
-  text-align: center;
-}
-#about p{
-  font-family: 'Courier New', monospace;
-  font-size: 20px;
-  text-align: center;
 }
