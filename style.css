@@ -1,10 +1,4 @@
-.logo{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    right: 690px;
-    top:60px;
-}
+
 .header{
   background-color: #f5f5f5;
   margin-bottom: 30px;
@@ -13,20 +7,13 @@
   padding-bottom: 1em;
 }
 .header a{
-  color: rgb(223, 18, 18);
+  font-family: 'Courier New', monospace;
+  margin: 20px;
+  color: rgb(7, 7, 7);
   padding-left: 0.05em;
   padding-right: 0.05em;
   padding-top: 2em;
   padding-bottom: 2em;
-}
-.nav{
-  font-family: 'Courier New', monospace;
-  color: rgb(237, 241, 2);
-  display:inline;
-  margin: 20px;
-  background-color: transparent;
-  text-decoration: none;
-  size: 50px;
 }
 
 .socialmedia{
@@ -39,6 +26,7 @@
   float: right ;
 }
 
+/*About Section */
 #about{
   background-color:white;
   text-align: left;
@@ -52,15 +40,11 @@
   font-size: 50px;
   text-align: center;
 }
+
 #about p{
   font-family: 'Courier New', monospace;
   font-size: 20px;
   text-align: center;
-}
-
- #about p{
-  font-family: 'Courier New', monospace;
-  font-size: 30px;
  }
  #about img {
    height: 120px;
@@ -70,19 +54,9 @@
    top: 100px;
    left: 100px;
  }
-  .headers{
-    font-family: 'Courier New', monospace;
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    top: 90px;
-    right: 630px;
-
-  }
   .logo2{
     height: 120px;
     width: 120px;
-    color: gray;
     align-items: center;
 }
 
@@ -108,12 +82,17 @@
   margin: -30px;
   padding: 100px;
 }
+.head {
+  font-family:'Courier New', monospace;
+  font-size: 60px;
+  text-align: center;
+}
 .education p {
   font-family: 'Courier New', monospace;
   font-size: 30px;
 }
 
-/*Split the eduaction section into 2 sections*/
+/*Split the education section into 2 sections*/
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -131,7 +110,7 @@
   padding-left: 8em;
   padding-right: 8em;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   background-image: linear-gradient(180deg, white, black, white);
   
 }
@@ -148,4 +127,16 @@
 .projects img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
+}
+.footer{
+    background-color:black;
+    text-align: left;
+    margin: -30px;
+    padding: 10px;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+
+}
+.footer p{
+  color: white;
 }
