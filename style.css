@@ -35,7 +35,7 @@
 
 /*About Section */
 #about{
-  background-color:white;
+  background-color: #E8A87C;
   text-align: left;
   margin: -30px;
   padding: 100px;
@@ -71,17 +71,26 @@
 
 /*Technology Section*/
 .tech{
-  background-color: #C38D9E;
+  background-color: tomato;
   margin: -30px;
   text-align: center;
   padding-left: 6em;
   padding-right: 6em;
   padding-top: 2em;
   padding-bottom: 2em;
+  
+}
+.tech img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
 .tech p {
   font-family: 'Courier New', monospace;
   font-size: 40px;
+}
+.tech img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 /*Education section*/
 .education{
