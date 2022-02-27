@@ -133,6 +133,9 @@
   filter: none;
   -webkit-filter: grayscale(0);
 }
+.amazon{
+  font-size: 10px;
+}
 .footer{
     background-color:black;
     text-align: left;
