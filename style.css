@@ -116,7 +116,6 @@
   padding-right: 8em;
   padding-top: 2em;
   padding-bottom: 5em;
-  background-image: linear-gradient(180deg, white, black, white);
   
 }
 .projects p {
@@ -133,8 +132,10 @@
   filter: none;
   -webkit-filter: grayscale(0);
 }
-.amazon{
-  font-size: 10px;
+.projects ul{
+  text-align: center;
+  font-family: 'Courier New', monospace;
+
 }
 .footer{
     background-color:black;
