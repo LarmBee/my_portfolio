@@ -1,4 +1,9 @@
-
+.me{
+  position: absolute;
+  top: 50px;
+  bottom: 100px;
+  right: 360px;
+}
 .header{
   background-color: #f5f5f5;
   margin-bottom: 30px;
@@ -139,4 +144,5 @@
 }
 .footer p{
   color: white;
+  text-align: center;
 }
